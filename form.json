@@ -1,0 +1,42 @@
+{
+  "header": "Form Header",
+
+  "items": [
+    {
+      "label": "Count",
+      "type": "number"
+    },
+    {
+      "label": "Is Editable",
+      "type": "checkbox"
+    },
+    {
+      "label": "Caption",
+      "type": "text"
+    },
+    {
+      "label": "Description",
+      "type": "textarea",
+      "value": "Multiline textarea"
+    },
+    {
+      "label": "Choose date",
+      "type": "date"
+    },
+    {
+      "label": "Your gender",
+      "type": "radio",
+      "name": "radio-1",
+      "radios": [
+        "Male",
+        "Female"
+      ]
+    }
+  ],
+
+  "buttons": [
+    "Ok",
+    "Cancel",
+    "Apply"
+  ]
+}
